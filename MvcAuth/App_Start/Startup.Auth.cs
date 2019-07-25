@@ -54,15 +54,15 @@ namespace MvcAuth
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "444355316414830",
+               appSecret: "f9fbe7d483f464c6be572cc9a1229fc3");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "899815878390-1c75nve526k1k4b878oml8pg0rn8lj45.apps.googleusercontent.com",
+                ClientSecret = "H5QPexboIpwJ-s-ulfz5E4Zq"
+            });
         }
     }
 }
